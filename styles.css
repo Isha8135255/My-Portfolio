@@ -1,0 +1,63 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+/* Add styles for the photo and text layout */
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-photo {
+    flex: 1;
+    padding: 1rem;
+}
+
+.about-photo img {
+    max-width: 100%;
+    border-radius: 50%; /* For a circular photo, adjust as needed */
+}
+
+.about-text {
+    flex: 2;
+    padding: 1rem;
+}
+
+
